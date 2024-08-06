@@ -1,0 +1,514 @@
+.navbarparentDiv {
+    margin: 20px;
+
+}
+
+.logoText {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#navbarSupportedContent {
+    margin-left: 150px;
+}
+
+.loginBtn {}
+
+#signupBtn {
+    background-color: #5D50C6;
+    border-color: #5D50C6;
+}
+
+.travelImg {
+    width: 600px;
+    height: auto;
+}
+
+.ExploreBtn {
+    background-color: white;
+    color: #F85E9F;
+}
+
+.text-align {
+    text-align: left;
+}
+
+.headLine {
+    padding-top: 20px;
+    font-size: 60px;
+}
+
+.headLine-top {
+    color: #F85E9F;
+}
+
+#watchDemoBtn {
+    padding: 5px;
+}
+
+#pink_text {
+    color: #F85E9F;
+    text-align: center;
+}
+
+.services_text {
+    text-align: left;
+    padding-right: 30px;
+    max-width: 315px;
+}
+
+.card-service {
+    width: 250px;
+    min-height: 350px;
+}
+
+
+.btnArrow {
+    width: 50px;
+    height: 50px;
+}
+
+.btnArrow:active {
+    background-color: #5D50C6 !important;
+    border-color: #5D50C6 !important;
+    color: rgb(64, 12, 185) !important;
+}
+
+.body_text {
+    text-align: left;
+}
+
+#orange_text {
+    color: orangered;
+}
+
+.main_body {
+    display: flex;
+}
+
+.travel-point {
+    text-align: left;
+    /* width: 392px; */
+}
+
+#Group_9238 {
+    margin-left: -120px;
+}
+
+#Group_9238>img {
+    height: 700px;
+    width: 1900px;
+}
+
+#offers {
+    border: 1px solid rgb(192, 186, 186);
+    height: 100px;
+    width: 160px;
+    margin: 20px;
+
+}
+
+.travel-point_testimonials {
+    text-align: center;
+}
+
+.image_png_size {
+    width: 80px;
+}
+
+footer {
+    display: none;
+}
+
+#Company {
+    margin-left: 50px;
+}
+
+#Company>h6 {
+    padding: 5px;
+}
+
+#section-8 {
+    margin-top: 100px;
+}
+
+#left_button {
+    background-color: #f9f9f9;
+}
+
+#right_button {
+    background-color: #5c37f1;
+}
+
+
+
+#subscribe {
+    background-color: #fff2cc;
+}
+
+#email {
+    background-color: white;
+    width: 500px;
+}
+
+#button_subs {
+    background-color: #5c37f1;
+    border-color: #5c37f1;
+    height: 45px;
+    width: 100px;
+
+}
+
+#mobile_footer {
+    display: none;
+}
+
+#section-8 {
+    display: block;
+}
+
+#key_feature_img {
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+#category_cards {
+    display: flex;
+}
+
+@media screen and (max-width:480px) {
+    .headLine {
+        padding-top: 20px;
+        font-size: 33px;
+        text-align: center;
+    }
+
+    #customer {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    #front_buttons {
+        flex-direction: column;
+    }
+
+    #signupBtn {
+        margin: 10px;
+    }
+
+    #watchDemoBtn {
+        padding-left: 65px;
+    }
+
+    #brands_logo .col-1 {
+        display: none;
+    }
+
+    #brands_logo .col-2 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 0.5rem;
+    }
+
+    #brands_logo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #top_value {
+        flex-direction: column;
+    }
+
+    .services_text {
+        text-align: center;
+    }
+
+    #pink_text>h3 {
+        font-size: 15px;
+    }
+
+    .services_text>h1 {
+        margin-left: 10px;
+    }
+    .Group_9238_parent {
+        flex-direction: column;
+    }
+
+    .ExploreBtn_parent {
+        flex-direction: column-reverse;
+    }
+
+    #Group_9238 {
+        margin-left: -12px;
+    }
+
+    #Group_9238>img {
+        height: 250px;
+        width: auto;
+    }
+
+    #br {
+        display: none
+    }
+
+    .card-service {
+        width: 280px;
+        min-height: 270px;
+        /* box-shadow: 0 32px 44px rgba(0, 0, 0, 0.15); */
+    }
+
+    #category_cards {
+        flex-direction: column;
+    }
+
+    #destination {
+        text-align: center;
+    }
+
+    #top_destination {
+        flex-direction: column;
+    }
+
+    #packages {
+        flex-direction: column;
+    }
+
+    .travel-point {
+        text-align: center;
+    }
+
+    #mobile_footer {
+        display: block;
+    }
+
+    #section-8 {
+        display: none;
+    }
+
+    .mobile_arraow_btn {
+        justify-content: space-between;
+    }
+
+    #offers {
+        width: 88%;
+    }
+
+    #section-5 {
+        flex-direction: column-reverse;
+    }
+
+    #key_feature_img>img {
+        height: 380px;
+        width: 310px;
+    }
+
+    #feature-1 {
+        flex-direction: column;
+    }
+
+    .image_png_size {
+        width: 75px;
+        align-self: left;
+    }
+
+    #feature-2 {
+        flex-direction: column;
+    }
+
+    #feature-3 {
+        flex-direction: column;
+    }
+
+    #testimonial_details {
+        text-align: center;
+    }
+
+    #email_subscribe {
+        flex-direction: column;
+    }
+
+    #email {
+        width: 225px;
+    }
+
+    #button_subs {
+        width: 225px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .ExploreBtn_parent {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #top_image {
+        height: 425px;
+        width: 400px;
+    }
+
+    .headLine {
+        padding-top: 20px;
+        font-size: 33px;
+        text-align: center;
+    }
+
+    #brands_logo .col-1 {
+        display: none;
+    }
+
+    #brands_logo .col-2 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 0.5rem;
+    }
+
+    #brands_logo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #top_value {
+        flex-direction: column;
+    }
+
+    .services_text {
+        text-align: center;
+    }
+
+    #pink_text>h3 {
+        font-size: 15px;
+        color: #F85E9F;
+        text-align: center;
+        
+    }
+    #pink_text_services{
+        margin-left: 300px;
+    }
+
+    .services_text>h1 {
+        margin-left: 90px;
+        width: 500px;
+    }
+
+    .Group_9238_parent {
+        flex-direction: column;
+    }
+
+    .ExploreBtn_parent {
+        flex-direction: column-reverse;
+    }
+
+    #Group_9238 {
+        margin-left: -12px;
+    }
+
+    #Group_9238>img {
+        height: 500px;
+        width: 600px;
+    }
+
+    #br {
+        display: none
+    }
+
+    .card-service {
+        width: 200px;
+        min-height: 300px;
+    }
+    #price{
+        order: 1;
+
+    }
+    #travel_card_body{
+        flex-direction: column-reverse;
+    }
+
+    #destination {
+        text-align: center;
+    }
+
+    #top_destination {
+        flex-direction: column;
+    }
+
+    #packages {
+        display: flex;
+    }
+
+    .travel-point {
+        text-align: center;
+    }
+
+    #mobile_footer {
+        display: block;
+    }
+
+    #section-8 {
+        display: none;
+    }
+
+    .mobile_arraow_btn {
+        justify-content: space-between;
+    }
+
+    #offers {
+        width: 44%;
+    }
+
+    #section-5 {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #key_feature_img>img {
+        height: 500px;
+        width: 425px;
+    }
+
+    #feature-1 {
+        display: flex;
+    }
+
+    .image_png_size {
+        width: 75px;
+        align-self: left;
+    }
+
+    #feature-2 {
+        display: flex;
+    }
+
+    #feature-3 {
+        display: flex;
+    }
+
+    #testimonial_details {
+        text-align: center;
+    }
+
+    #subscribe {
+        background-color: #fff2cc;
+    }
+
+    #email {
+        background-color: white;
+        width: 280px;
+    }
+
+    #email_subscribe {
+        display: flex;
+    }
+
+    #button_subs {
+        background-color: #5c37f1;
+        border-color: #5c37f1;
+        height: 45px;
+        width: 100px;
+
+    }
+
+    #category_cards {
+        display: flex;
+    }
+}
