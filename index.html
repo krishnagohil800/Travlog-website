@@ -4,349 +4,520 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>simple webpage design</title>
-  <link rel="stylesheet" href="assets/styles.css" />
+  <title>Simple Web Pages</title>
+  <link rel="stylesheet" href="styles.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
 </head>
 
 <body>
-  <!-- <main>
+  <main>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container-fluid">
-        <img src="assets/Frame 1.png" alt="">
+      <div class="container  navbarparentDiv">
+        <img src="images/Vector.png" alt="Vector">
+        <div class="logoText ps-3">Travlog</div>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar_UL">
-            <li class="nav-item grid gap-3">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item px-3">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item px-3">
               <a class="nav-link" href="#">Discover</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item px-3">
               <a class="nav-link" href="#">Special Deals</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item px-3">
               <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
-          <div class="btn" style="display: flex;">
-            <div class="btn1">
-              <button><a class="nav-link" href="#">Login</a></button>
-            </div>
-            <div class="btn2">
-              <button><a class="nav-link" href="#">Sign up</a></button>
-            </div>
+          <div class="d-flex">
+            <button class=" fw-bold btn me-2 loginBtn">Log in</button>
+            <button id="signupBtn" class="btn btn-primary rounded-pill px-4 signupBtn">Sign up</button>
           </div>
         </div>
       </div>
-    </nav> -->
-    <!-- _________ -->
-    <main id="main">
-      <nav class="navbar navbar-expand-lg navbar-light bg-white" >
-        <div class="container-fluid">
-          <img src="/cdn/logo.png" alt="">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Discover</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Special Deals</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-            <div class="btn" style="display: flex;">
-              <div class="btn1">
-                <button>Log in</button>
-              </div>
-              <div class="btn2">
-                <button>Sign up</button>
-              </div>
-            </div>
-          </div>
-        </div>
-       </nav>
+    </nav>
 
-      <div class="section">
-        <div class="containerMain">
-          <div id="explore">
-            <a href="#" class="button" id="explore_the_world"><span style="color: #e66293"> <b>Explore the
-                  world</b></span> <img src="assets/work 1.png" class="rounded float-end" alt="..."> </a>
-          </div>
-          <p class="fs-1"> <b>Travel <span style="color: #e66293"> top destination </span> of the
-              world</b></p>
-          <p class="fs-6"><span style="color: #646464">
-              We always make our customer happy by providing as many choices as
-              possible </span></p>
-          <div class="button-container">
-            <div>
-              <a href="#" class="button" id="getstarted">Get Started</a>
+    <div class="container text-center my-5">
+      <div class="ExploreBtn_parent row">
+        <div class="col-md-6 text-align">
+          <a href="#" class="ExploreBtn shadow btn rounded-pill ">
+            <div class="px-3">
+              <b class="p-2 headLine-top">Explore the world!</b>
+              <img src="images/work 1.png" class="img-fluid p-2 work1Img" alt="...">
             </div>
-            <a href="#" class="button" id="watchDemo">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <circle cx="12" cy="12" r="12" fill="#6c63ff" />
-                <polygon points="10,8 16,12 10,16" fill="white" />
-              </svg>
-              Watch Demo
+          </a>
+          <div class="m-2 ">
+            <h1 class="headLine"><b>Travel <span class="headLine-top">top <br id="br"> destination <br id="br"></span>
+                of the world</b>
+            </h1>
+          </div>
+          <div class="p-2 mt-4">
+            <p id="customer">We always make our customer happy by <br id="br"> providing <br id="br"> as many choices as
+              possible</p>
+          </div>
+          <div class="d-flex justify-content-left" id="front_buttons">
+            <a href="#" id="signupBtn" class="btn  ps-4 pe-4 me-2 rounded-pill">Get started</a>
+            <a href="#" id="watchDemoBtn" class=" shadow btn 
+             d-flex align-items-center rounded-pill ">
+              <div class="ps-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <circle cx="12" cy="12" r="12" fill="#6c63ff" />
+                  <polygon points="10,8 16,12 10,16" fill="white" />
+                </svg>
+              </div>
+              <div class="ps-2 pe-2">
+                Watch Demo
+              </div>
             </a>
           </div>
         </div>
-        <div class="travelimg">
-          <img src="assets/Group 1.png" alt="Travel Image" id="img1" />
+        <div class="col-md-6">
+          <img src="images/Group 1.png" class="img-fluid travelImg" alt="Travel Image" id="top_image">
         </div>
-      </div>
-      <div id="section-1">
-        <div class="logosImg">
-          <img src="assets/Frame 85.png" alt="logos" />
-        </div>
-      </div>
-      <div id="section-2">
-        <div class="services" id="services">
-          <span style="color: #e46996"> <b id="service-font">SERVICES</b> </span>
-          <h1><b>Our top value <br> categories for you</b></h1>
-        </div>
-        <div id="card-1">
-          <img src="assets/destination 1.png" alt="destination image" id="card-image">
-          <b>
-            <p class="fs-3">Best tour guide</p>
-          </b>
-          <span style="color: #646464">
-            <p class="fs-6">What looked like a small <br> patch of purple grass, <br> above five feet.</p>
-
-          </span>
-        </div>
-        <div id="card-1">
-          <img src="assets/booking 1.png" alt="booking image" id="card-image">
-          <b>
-            <p class="fs-3">Easy booking</p>
-          </b>
-          <span style="color: #646464">
-            <p class="fs-6">Square, was moving <br> across the sand in their <br> direction.</p>
-          </span>
-        </div>
-      </div>
-      <div id="section-3">
-        <div id="semi_section">
-          <div id="explore">
-            <span style="color: #e46996"> <b id="service-font">TOP DESTINATION</b> </span>
-            <h2>Explore top destination</h2>
-          </div>
-          <div class="rounded float-end d-flex ">
-            <div class="button button-left">&#8592;</div>
-            <div class="button button-right">&#8594;</div>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem; border-radius: 30px; height: 500px;">
-          <img src="assets/Rectangle 6.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <div class="main-content">
-              <h5>Paradis beach, <span style="color: #e46996; text-align: right; margin-left: 200px;">$510</span>
-                <br>Bantayan Island
-              </h5>
-            </div>
-            <span style="color: #646464">Rome, Italy</span>
-            <div id="rating">
-              <h2>4.8</h2>
-              <img src="assets/star 1.png" alt="rate 1">
-            </div>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem; border-radius: 30px; height: 500px;">
-          <img src="assets/Rectangle_2 6.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <div class="main-content">
-              <h5>Ocean with full <span style="color: #e46996; text-align: right; margin-left: 200px;">$20.99</span>
-                <br>Of colors
-              </h5>
-            </div>
-            <span style="color: #646464">Maldives</span>
-            <div id="rating">
-              <h2>4.5</h2>
-              <img src="assets/star 1.png" alt="rate 1">
-            </div>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem; border-radius: 30px; height: 500px;">
-          <img src="assets/Rectangle_3 6.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <div class="main-content">
-              <h5>Mountain view <span style="color: #e46996; text-align: right; margin-left: 200px;">$150</span>
-                <br>Above the cloud
-              </h5>
-            </div>
-            <span style="color: #646464">United arab Emiries</span>
-            <div id="rating">
-              <h2>5.0</h2>
-              <img src="assets/star 1.png" alt="rate 1">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="section-4">
-        <div class="section-4-container">
-          <div class="girl_image">
-            <img src="assets/Group 9238.png" alt="Girl image">
-          </div>
-          <div class="col">
-            <span style="color: #e46996"><b id="service-font">TRAVEL POINT</b></span>
-            <p class="fs-2">We help you find your dream location </p>
-            <p class="fs-6 "><span style="color: #646464">Contrary to popular belief, Lorem Ipsum is not<br>simply random
-                text. It has
-                roots in a piece of<br>classical Latin literature from 45 BC.</span></p>
-            <div id="group1">
-              <div id="page4bodycard">
-                <h1 style="margin-top: 40px; color: #FF5722; ">500+</h1>
-                <p class="fs-6">Holiday Package</p>
-              </div>
-              <div id="page4bodycard">
-                <h1 style="margin-top: 40px; color: #FF5722;">100</h1>
-                <p class="fs-6">Luxury Hotel</p>
-              </div>
-            </div>
-            <div id="group1">
-              <div id="page4bodycard">
-                <h1 style="margin-top: 40px; color: #FF5722;">7</h1>
-                <p class="fs-6">Premium Airlines</p>
-              </div>
-              <div id="page4bodycard">
-                <h1 style="margin-top: 40px; color: #FF5722;">2k+ </h1>
-                <p class="fs-6">Happy Customer</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- ____________________ -->
-      <div id="section-5">
-        <div id="key-features">
-          <p class="fs-5" style="color: #F85E9F;"> KEY FEATURES</p>
-          <p class="fs-1"> <b>We offer best services</b></p>
-
-          <p class="fs-6" style="color: grey;"> Contrary to popular belief, Lorem Ipsum is not simply random <br>text. It
-            has roots in
-            a piece of classical Latin literature <br>from 45 BC.</p>
-          <div id="feature-1">
-            <div id="feature-1-img">
-              <img src="assets/Group 9239.png" alt="feature1">
-            </div>
-            <div id="feature-1-text">
-              <p class="fs-5"> <b>We offer best services</b></p>
-              <p class="fs-6" style="color: grey;">Lorem Ipsum is not simply random</p>
-            </div>
-          </div>
-          <div id="feature-1">
-            <div id="feature-1-img">
-              <img src="assets/Group 9239_2.png" alt="feature1">
-            </div>
-            <div id="feature-1-text">
-              <p class="fs-5"> <b>Schedule your trip</b></p>
-              <p class="fs-6" style="color: grey;">It has roots in a piece of classical</p>
-            </div>
-          </div>
-          <div id="feature-1">
-            <div id="feature-1-img">
-              <img src="assets/Group 9239_3.png" alt="feature1">
-            </div>
-            <div id="feature-1-text">
-              <p class="fs-5"> <b>Get discount offers</b></p>
-              <p class="fs-6" style="color: grey;">Lorem Ipsum is not simply random text</p>
-            </div>
-          </div>
-        </div>
-        <div id="key_feature_img">
-          <img src="assets/BACKGROUND.png" alt="key feature image">
-        </div>
-      </div>
-      <div id="section-6">
-        <div id="testimonials">
-          <p class="fs-5" style="color: #F85E9F;"> <b>TESTIMONIALS</b></p>
-          <p class="fs-2"> <b>Trust our clients</b></p>
-          <img src="assets/Ellipse 22.png" alt="ellipse image">
-          <div class="button-container">
-            <div class="button button-let-indicator">&#8592;</div>
-            <p class="fs-5" style="text-align: center; margin-left: 350px;"><span style="color: orangered">Mark Smith
-              </span><span style="color: grey">/Travel Enthusiast</span></p>
-            <div class="button button-right-indicator">&#8594;</div>
-          </div>
-          <img src="assets/Frame 54.png" alt="5 star image">
-          <p class="fs-5"><span style="color: grey">Contrary to popular belief, Lorem ipsum is not random text, it has a
-              roots <br> in
-              a piece of classical latin litrature from 45 BC.</span></p>
-          <img src="assets/Ellipse 21.png" alt="pink dot">
-        </div>
-      </div>
-      <div id="section-7">
-        <div id="subscribe">
-          <p class="fs-5" style="margin-top: 40px; color: #F85E9F;"> <b>SUBSCRIBE TO OUR NEWSLETTER</b></p>
-          <p class="fs-2" style="margin-top: 40px; color: #000000;"> <b>Prepare yourself & let’s explore the <br> beauty
-              of the world</b></p>
-          <div id="email_subscribe">
-            <div id="email">
-              <img src="assets/message 1.png" alt="email logo">
-              <h5><span style="color: grey">Your Email</span></h5>
-            </div>
-            <div id="button_subs">
-              <button>Subscribe</button>
-            </div>
-          </div>
-        </div>
-      </div>
-  </main>
-  <footer>
-    <div id="section-8">
-      <div id="social_media">
-        <div id="logo">
-          <img src="assets/Vector.png" alt="travlog logo">
-          <h2> Travlog </h2>
-        </div>
-        <div id="social_media-text-1">
-          <p class="fs-6"><span style="color: grey">Contrary to popular belief, Lorem ipsum is not random text, it has a
-              roots <br> in
-              a piece of classical latin litrature from 45 BC.</span></p>
-        </div>
-        <div id="social_logos">
-          <img src="assets/Group.png" alt="Facebook" id="social">
-          <img src="assets/Twitter.png" alt="Twitter" id="social">
-          <img src="assets/Group 8.png" alt="Facebook" id="social">
-        </div>
-      </div>
-      <div id="Company">
-        <h3>Company</h3>
-        <h5><span style="color: grey">About</span></h5>
-        <h5><span style="color: grey">Career</span></h5>
-        <h5><span style="color: grey">Mobile</span></h5>
-      </div>
-      <div id="Company">
-        <h3>Contact</h3>
-        <h5><span style="color: grey">Why Travlog</span></h5>
-        <h5><span style="color: grey">Partner with us</span></h5>
-        <h5><span style="color: grey">FAQ's</span></h5>
-        <h5><span style="color: grey">Blog</span></h5>
-      </div>
-      <div id="Company">
-        <h3>Meet us</h3>
-        <h5><span style="color: grey">+00 92 1234 <br> 56789</span></h5>
-        <h5><span style="color: grey">info@travlog.com</span></h5>
-        <h5><span style="color: grey">205. R Street, New York</span></h5>
-        <h5><span style="color: grey">BD23200</span></h5>
       </div>
     </div>
-  </footer>
+
+    <div class="container my-5">
+      <div class="row text-center  text-center justify-content-center align-items-center" id="brands_logo">
+        <div class="col-1"></div>
+        <div class="col-2 ">
+          <img src="images/logo_1.png" class="img-fluid pe-3" alt="logo1">
+        </div>
+        <div class="col-2">
+          <img src="images/logo_2.png" class="img-fluid" alt="logo2">
+        </div>
+        <div class="col-2">
+          <img src="images/logo_3.png" class="img-fluid" alt="logo3">
+        </div>
+        <div class="col-2">
+          <img src="images/logo_4.png" class="img-fluid" alt="logo4">
+        </div>
+        <div class="col-2">
+          <img src="images/logo_5.png" class="img-fluid" alt="logo5">
+        </div>
+        <div class="col-1"></div>
+
+      </div>
+    </div>
+    <div class="container text-center my-5 d-flex overflow-hidden" id="top_value">
+      <div class="services_text">
+        <div id="pink_text">
+          <h3 class="" id="pink_text_services">SERVICES</h3>
+        </div>
+        <h1>Our top value categories for you</h1>
+      </div>
+      <div id="category_cards">
+        <div class="mx-2 my-2">
+          <div class="d-flex overflow-hidden">
+            <div class="card card-service rounded-5 p-2">
+              <div class="card_img  py-4">
+                <img src="images/destination 1.png" alt="destination image">
+              </div>
+              <div class="card-body">
+                <h5 class="pb-3">Best tour guide</h5>
+                <p class="card-text text-muted">What looked like a small patch of purple grass, above five feet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mx-2 my-2">
+          <div class="card card-service rounded-5 p-2  ">
+            <div class="card_img  py-4">
+              <img src="images/booking 1.png" alt="booking image">
+            </div>
+            <div class="card-body">
+              <h5 class="pb-3">Easy booking</h5>
+              <p class="card-text text-muted">Square, was moving across the sand in their direction.</p>
+            </div>
+          </div>
+        </div>
+        <div class="mx-2 my-2">
+          <div class="card card-service rounded-5 p-2 ">
+            <div class="card_img py-4">
+              <img src="images/cloudy 1.png" alt="booking image">
+            </div>
+            <div class="card-body">
+              <h5 class="pb-3">Weather Forecast</h5>
+              <p class="card-text text-muted">What looked like a small patch of purple grass, direction.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="container text-center my-5">
+      <div class="d-flex justify-content-between" id="top_destination">
+        <div id="destination">
+          <div id="pink_text">
+            <h3 class="  travel-point">TOP DESTINATION</h3>
+          </div>
+          <h2 class="travel-point">Explore top destination</h2>
+        </div>
+        <div class="d-flex  my-3 mobile_arraow_btn">
+          <button
+            class="btnArrow btn btn-outline-secondary rounded-circle d-flex align-items-center justify-content-center">&#8592;</button>
+          <button active
+            class="btnArrow btn  rounded-circle d-flex align-items-center justify-content-center ms-3">&#8594;</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card rounded-5 my-2">
+            <img src="images/Rectangle 6.png" class="card-img-top" alt="...">
+            <div class="card-body body_text">
+              <div class="d-flex justify-content-between">
+                <div>
+                  <h5 class="card-title">Paradis beach, </h5>
+                  <p class="text-muted">Rome, Italy</p>
+                </div>
+                <div class="justify-content-end d-flex" id="price">
+                  <span id="pink_text" class="fs-5"><b>$510</b></span>
+                </div>
+              </div>
+              <div class="d-flex justify-content-start">
+                <span id="orange_text"><b>4.8</b></span>
+                <img src="images/star 1.png" alt="rate 1">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card rounded-5 my-2">
+            <img src="images/Rectangle_2 6.png" class="card-img-top" alt="...">
+            <div class="card-body body_text">
+              <div class="d-flex justify-content-between">
+                <div>
+                  <h5 class="card-title">Ocean with full</h5>
+                  <p class="text-muted">Maldives</p>
+                </div>
+                <div id="price">
+                  <span id="pink_text" class="fs-5"><b>$20.99</b></span>
+                </div>
+              </div>
+              <div class="d-flex justify-content-start">
+                <span id="orange_text"><b>4.5</b></span>
+                <img src="images/star 1.png" alt="rate 1">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card rounded-5 my-2">
+            <img src="images/Rectangle_3 6.png" class="card-img-top" alt="...">
+            <div class="card-body body_text" id="travel_card_body">
+              <div class="d-flex justify-content-between">
+                <div>
+                  <h5 class="card-title">Mountain view </h5>
+                  <p class="text-muted">United Arab Emirates</p>
+                </div>
+                <div id="price">
+                  <span id="pink_text" class="fs-5"><b>$150</b></span>
+                </div>
+              </div>
+              <div class="d-flex justify-content-start">
+                <span id="orange_text"><b>5.0</b></span>
+                <img src="images/star 1.png" alt="rate 1">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center my-5 py-5">
+      <div class="Group_9238_parent d-flex">
+        <div id="Group_9238" class=" bg-yellow ">
+          <img src="images/Group 9238.png" class="img-fluid" alt="Girl image">
+        </div>
+        <div class=" d-flex flex-column ">
+          <div class="travel-point">
+            <div id="pink_text">
+              <h3 class="  pt-4 pb-3">TRAVEL POINT</h3>
+            </div>
+            <h2 class="">We helping you find your dream location</h2>
+            <p class="fs-6 text-muted ">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+              in a
+              piece of classical Latin literature from 45 BC.</p>
+          </div>
+
+          <div class=" mt-4">
+            <div class="row">
+
+              <div class="d-flex" id="packages">
+                <div class="col-6 col-sm-12 stats rounded-4 p-3 py-3 " id="offers">
+                  <h4 id="orange_text">500+</h4>
+                  <p class="mb-0">Holiday Package</p>
+                </div>
+                <div class="col-6 col-sm-12 stats rounded-4 p-3 py-3" id="offers">
+                  <h4 id="orange_text">100</h4>
+                  <p class="mb-0">Luxury Hotel</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+
+              <div class="d-flex" id="packages">
+                <div class="col-6 col-sm-12 stats rounded-4 p-3 py-3" id="offers">
+                  <h4 id="orange_text">7</h4>
+                  <p class="mb-0">Premium Airlines</p>
+                </div>
+                <div class="col-6 col-sm-12 stats rounded-4 p-3 py-3" id="offers">
+                  <h4 id="orange_text">2k+</h4>
+                  <p class="mb-0">Happy Customer</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="section-5" class="container py-3 d-flex">
+      <div id="key-features">
+        <div class="travel-point">
+          <div id="pink_text">
+            <h3 class="  pt-4 pb-3">KEY FEATURES</h3>
+          </div>
+          <h2 class="">We offer best services</h2>
+          <p class="fs-6 text-muted ">Contrary to popular belief, Lorem Ipsum is not simply random<br id="br"> text. It
+            has roots in a piece of classical Latin literature<br id="br"> from 45 BC.</p>
+        </div>
+        <div id="feature-1" class="d-flex align-items-center my-3 p-3">
+          <div class="">
+            <img src="images/Group 9239.png" alt="feature1" class="img-fluid image_png_size">
+          </div>
+          <div id="feature-1-text" class="ms-3">
+            <p><b>We offer best services</b></p>
+            <h5 class="text-muted">Lorem Ipsum is not simply random text</h5>
+          </div>
+        </div>
+        <div class="d-flex align-items-center my-3 border rounded-4 shadow-sm p-3" id="feature-2">
+          <div>
+            <img src="images/Group 9239_2.png" alt="feature2" class="img-fluid image_png_size">
+          </div>
+          <div class="ms-3">
+            <p><b>Schedule your trip</b></p>
+            <h5 class="text-muted">It has roots in a piece of classical</h5>
+          </div>
+        </div>
+        <div id="feature-3" class="d-flex align-items-center my-3 p-3">
+          <div>
+            <img src="images/Group 9239_3.png" alt="feature3" class="img-fluid image_png_size">
+          </div>
+          <div class="ms-3">
+            <p><b>Get discount offers</b></p>
+            <h5 class="text-muted">Lorem Ipsum is not simply random text</h5>
+          </div>
+        </div>
+      </div>
+      <div id="key_feature_img">
+        <img src="images/BACKGROUND.png" alt="key feature image" class="img-fluid " height="650px" width="550px">
+      </div>
+    </div>
+
+
+    <div id="section-6" class="container py-5 text-center">
+      <div id="testimonials" class="row d-flex flex-column flex-md-row">
+        <div class="col-2 col-md-2 col-lg-2 d-none d-md-flex justify-content-start align-self-center">
+          <button
+            class="btnArrow btn btn-outline-secondary rounded-circle d-flex align-items-center justify-content-center"
+            id="left_button">&#8592;</button>
+        </div>
+        <div class="col-12 col-md-8 col-lg-8 text-center" id="testimonial_details">
+          <div class="travel-point_testimonials">
+            <div id="pink_text">
+              <h3 class="pt-4 pb-3">TESTIMONIALS</h3>
+            </div>
+            <h2>Trust our clients</h2>
+          </div>
+          <img src="images/Ellipse 22.png" alt="ellipse image" class="my-3">
+          <div id="mark_smith" class="justify-content-center">
+            <p class="fs-5"><span class="text-warning">Mark Smith </span>/ Travel Enthusiast</p>
+            <img src="images/Frame 54.png" alt="5 star image" class="my-3">
+            <p class="fs-6 text-muted">Contrary to popular belief, Lorem ipsum is not random text, it has roots <br
+                id="br"> in a piece of classical Latin literature from 45 BC.</p>
+            <img src="images/Ellipse 21.png" alt="pink dot" class="my-3">
+          </div>
+        </div>
+        <div class="col-2 col-md-2 col-lg-2 d-none d-md-flex justify-content-end align-self-center">
+          <button active
+            class="btnArrow btn btn-outline-secondary rounded-circle d-flex align-items-center justify-content-center"
+            id="right_button">&#8594;</button>
+        </div>
+        <div class="col-12 d-flex justify-content-between align-items-center d-md-none mt-3">
+          <button
+            class="btnArrow btn btn-outline-secondary rounded-circle d-flex align-items-center justify-content-center"
+            id="left_button">&#8592;</button>
+          <button active
+            class="btnArrow btn btn-outline-secondary rounded-circle d-flex align-items-center justify-content-center"
+            id="right_button">&#8594;</button>
+        </div>
+      </div>
+    </div>
+    <div id="section-7" class="container py-5 text-center mt-5">
+      <div id="subscribe" class="p-5">
+        <div class="travel-point_testimonials">
+          <div id="pink_text">
+            <h3 class="pt-4 pb-3">SUBSCRIBE TO OUR NEWSLETTER</h3>
+          </div>
+          <h3 class="">Prepare yourself & let’s explore the <br id="br"> beauty of the world</h3>
+        </div>
+        <div id="email_subscribe" class="row justify-content-center align-items-center mt-4">
+          <div id="email"
+            class="col-12 col-md-6 col-lg-4 d-flex align-items-center border rounded-4 p-2 me-md-3 mb-3 mb-md-0">
+            <img src="images/message 1.png" alt="email logo" class="me-2">
+            <h5 class=" fs-6 text-muted m-0">Your Email</h5>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center p-2 me-md-3 mb-3 mb-md-0">
+            <button id="button_subs" class="btn btn-primary rounded-4  me-2">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <div id="section-7" class="container py-5 text-center mt-5">
+      <div id="subscribe" class=" p-5">
+        <div class="travel-point">
+          <div id="pink_text">
+            <h3 class="  pt-4 pb-3">SUBSCRIBE TO OUR NEWSLETTER</h3>
+          </div>
+          <h3 class="">Prepare yourself & let’s explore the <br id="br"> beauty of the world</h3>
+        </div>
+        <div id="email_subscribe" class="d-flex justify-content-center align-items-center mt-4 ">
+          <div id="email" class="d-flex align-items-center border rounded-4 p-2 me-3">
+            <img src="images/message 1.png" alt="email logo" class="me-2">
+            <h5 class="text-muted m-0">Your Email</h5>
+          </div>
+          <div>
+            <button id="button_subs" class="rounded-4">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <footer class="footer bg-light py-5 d-md-none" id="mobile_footer">
+      <div class="container d-flex flex-column align-items-start">
+        <div class="lfooter mb-3">
+          <img src="images/Frame 1.png">
+          <p class=" fs-6 text-muted">Contrary to popular belief, Lorem Ipsum is not simply<br id="br">random text. It
+            has roots in a
+            piece of classical Latin <br id="br">literature from 45 BC.</p>
+          <div class="d-flex">
+            <img src="images/Group.png" alt="" height="40" width="40" class="me-2">
+            <img src="images/Twitter.png" alt="" height="40" width="40" class="me-2">
+            <img src="images/Group 8.png" alt="" height="40" width="40">
+          </div>
+        </div>
+        <div class="accordion w-100" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                <b>Company</b>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>About</p>
+                <p>Career</p>
+                <p>Mobile</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <b>Contact Us</b>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Why Travelog?</p>
+                <p>Partner with us</p>
+                <p>FAQ's</p>
+                <p>Blog</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <b>Meet Us</b>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>+00 92 1234 56789</p>
+                <p>info@travelog.com</p>
+                <p>205, R Street, New York BD23200</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="section-8" class="container py-5 d-none d-md-flex mt-5">
+      <div id="social_media" class="justify-content-between align-items-center">
+        <div id="logo" class="d-flex align-items-center">
+          <img src="images/Vector.png" alt="travlog logo" class="me-2">
+          <h2>Travlog</h2>
+        </div>
+        <div>
+          <p class="text-muted">Contrary to popular belief, Lorem ipsum is not simply<br>random text, it has roots in a
+            piece of classical Latin<br>literature from 45 BC.</p>
+        </div>
+        <div class="d-flex">
+          <img src="images/Group.png" alt="Facebook" id="social" class="me-2">
+          <img src="images/Twitter.png" alt="Twitter" id="social" class="me-2">
+          <img src="images/Group 8.png" alt="Facebook" id="social">
+        </div>
+      </div>
+      <div class="d-flex justify-content-between">
+        <div id="Company">
+          <h3>Company</h3>
+          <h6 class="text-muted">About</h6>
+          <h6 class="text-muted">Career</h6>
+          <h6 class="text-muted">Mobile</h6>
+        </div>
+        <div id="Company">
+          <h3>Contact</h3>
+          <h6 class="text-muted">Why Travlog</h6>
+          <h6 class="text-muted">Partner with us</h6>
+          <h6 class="text-muted">FAQ's</h6>
+          <h6 class="text-muted">Blog</h6>
+        </div>
+        <div id="Company">
+          <h3>Meet us</h3>
+          <h6 class="text-muted">+00 92 1234 56789</h6>
+          <h6 class="text-muted">info@travlog.com</h6>
+          <h6 class="text-muted">205. R Street, New York</h6>
+          <h6 class="text-muted">BD23200</h6>
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-qhUUamzKQVjGSc7RpK/PwMOf5rPv/2pYwf0pNj6Lt2EC/0U1+jKaNZvKpZXRa+9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cXbZtTRw54cU+6TH3mrF6DkxbldlG5BCX6UR4kK4N/PjcUXNbN+LoCftWI8aUhAd"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
